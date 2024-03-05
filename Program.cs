@@ -62,7 +62,11 @@
             {
                 Console.WriteLine("All people are the same age");
             }
-
+            if (Person1 == Person2 && Person1 != Person3 || Person2 == Person3 && Person2 != Person1 || Person1 == Person3 && Person1 != Person2 )
+            {
+                Console.WriteLine("Exactly 2 people are the same age");
+               
+            }
 
         }
 
