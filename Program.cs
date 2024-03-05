@@ -19,8 +19,20 @@
             Person3 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Person 3 is " + Person3 + " years old.");
 
-
-
+            if (Person1 > Person2)
+            {
+                Console.WriteLine("Person 1 is older than Person 2");
+                //good
+            }
+            if (Person3 < Person1)
+            {
+                Console.WriteLine("Person 3 is younger than Person 1");
+                //good
+            }
+            if (Person2 == Person3)
+            {
+                Console.WriteLine("Person 2 and Person 3 are the same age");
+            }
 
         }
 
